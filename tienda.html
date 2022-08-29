@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS - Ejercicio Tienda</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous" />
+        
+</head>
+
+<body>
+<nav>
+<a href="/tienda.html">Tienda</a>
+    <a href="/tiendaCSS.html">Tienda CSS</a>
+    <a href="/tiendajs.html">Tienda JS</a>
+    <a href="/articulos.html">Articulos Familiares</a>
+</nav>
+
+    <main>
+        <div class="container-fluid p-0 min-vh-100">
+            <header class="bg-light p-4 mb-4">
+                <h1 class="font-weight-bold">Tiendas Pav</h1>
+                <h2 class="font-weight-bold">Artículos</h1>
+            </header>
+
+            <div class="row p-0 m-0">
+                <nav class="col-lg-2 col-md-12 p-2">
+                    <ul>
+                        <li><a href="#">Artículos</a></li>
+                        <li><a href="#">Mi Compra</a></li>
+                        <li><a href="#">Sucursales</a></li>
+                    </ul>
+                </nav>
+
+                <article class="col col-lg-10 col-md-12 d-flex flex-column container">
+                    <div id="listaCategorias" class=" d-flex flex-row align-items-center">
+                        <label for="categorias" class="mr-4">
+                            Categoría:
+                        </label>
+                        <select id="categorias" class="custom-select">
+                            <option value="1">Electrodomésticos</option>
+                            <option value="2">Audio</option>
+                            <option value="3">Jardín</option>
+                        </select>
+                    </div>
+                    <div id="listaArticulos" class="row mt-4 mx-0">
+                        <div
+                            class="containerArticulo col col-xl-4 col-lg-6 col-md-6 col-xs-12 d-flex flex-row mb-4 p-0">
+                            <div class="imagenArticulo">
+                                <img src="https://www.sony.com.ar/image/34e9d1785ae0e2cca4576de8e1c1a95e?fmt=pjpeg&wid=330&bgcolor=FFFFFF&bgc=FFFFFF"
+                                    width="130" height="130">
+                            </div>
+                            <div class="datosArticulo">
+                                <p>Artículo 1</p>
+                                <p>Precio: $32.99</p>
+                                <p>Cantidad: 12</p>
+                                <button class="btn btn-primary botonComprar">Comprar</button>
+                            </div>
+                        </div>
+                        <div
+                            class="containerArticulo col col-xl-4 col-lg-6 col-md-6 col-xs-12 d-flex flex-row mb-4 p-0">
+                            <div class="imagenArticulo">
+                                <img src="https://www.sony.com.ar/image/34e9d1785ae0e2cca4576de8e1c1a95e?fmt=pjpeg&wid=330&bgcolor=FFFFFF&bgc=FFFFFF"
+                                    width="130" height="130">
+                            </div>
+                            <div class="datosArticulo">
+                                <p>Artículo 2</p>
+                                <p>Precio: $26.99</p>
+                                <p>Cantidad: 17</p>
+                                <button class="btn btn-primary botonComprar">Comprar</button>
+                            </div>
+                        </div>
+                        <div
+                            class="containerArticulo col col-xl-4 col-lg-6 col-md-6 col-xs-12 d-flex flex-row mb-4 p-0">
+                            <div class="imagenArticulo">
+                                <img src="https://www.sony.com.ar/image/34e9d1785ae0e2cca4576de8e1c1a95e?fmt=pjpeg&wid=330&bgcolor=FFFFFF&bgc=FFFFFF"
+                                    width="130" height="130">
+                            </div>
+                            <div class="datosArticulo">
+                                <p>Artículo 3</p>
+                                <p>Precio: $124.99</p>
+                                <p>Cantidad: 14</p>
+                                <button class="btn btn-primary botonComprar">Comprar</button>
+                            </div>
+                        </div>
+                        <div
+                            class="containerArticulo col col-xl-4 col-lg-6 col-md-6 col-xs-12 d-flex flex-row mb-4 p-0">
+                            <div class="imagenArticulo">
+                                <img src="https://www.sony.com.ar/image/34e9d1785ae0e2cca4576de8e1c1a95e?fmt=pjpeg&wid=330&bgcolor=FFFFFF&bgc=FFFFFF"
+                                    width="130" height="130">
+                            </div>
+                            <div class="datosArticulo">
+                                <p>Artículo 4</p>
+                                <p>Precio: $17.00</p>
+                                <p>Cantidad: 98</p>
+                                <button class="btn btn-primary botonComprar">Comprar</button>
+                            </div>
+                        </div>
+                        <div
+                            class="containerArticulo col col-xl-4 col-lg-6 col-md-6 col-xs-12 d-flex flex-row mb-4 p-0">
+                            <div class="imagenArticulo">
+                                <img src="https://www.sony.com.ar/image/34e9d1785ae0e2cca4576de8e1c1a95e?fmt=pjpeg&wid=330&bgcolor=FFFFFF&bgc=FFFFFF"
+                                    width="130" height="130">
+                            </div>
+                            <div class="datosArticulo">
+                                <p>Artículo 5</p>
+                                <p>Precio: $12.99</p>
+                                <p>Cantidad: 115</p>
+                                <button class="btn btn-primary botonComprar">Comprar</button>
+                            </div>
+                        </div>
+                        <div
+                            class="containerArticulo col col-xl-4 col-lg-6 col-md-6 col-xs-12 d-flex flex-row mb-4 p-0">
+                            <div class="imagenArticulo">
+                                <img src="https://www.sony.com.ar/image/34e9d1785ae0e2cca4576de8e1c1a95e?fmt=pjpeg&wid=330&bgcolor=FFFFFF&bgc=FFFFFF"
+                                    width="130" height="130">
+                            </div>
+                            <div class="datosArticulo">
+                                <p>Artículo 6</p>
+                                <p>Precio: $33.99</p>
+                                <p>Cantidad: 17</p>
+                                <button class="btn btn-primary botonComprar">Comprar</button>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+
+        <footer class="container-fluid m-0 bg-light py-4 text-center">
+            Copyright &copy; PAV2 - UTN 2018
+        </footer>
+        </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+				
+
+</body>
+
+</html>
